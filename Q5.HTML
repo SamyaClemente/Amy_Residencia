@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Atividade Javascript</title>
+    </head>
+    <body>
+        <script>
+            var usuarios=[
+                {
+                nome: "Amy",
+                skills: ["Javascript", "CSS", "HTML"]
+            },
+                {
+                    nome: "Jon",
+                    skills: ["Java", "NodeJS", "Python"]
+                }
+        ]
+        exibir(usuarios)
+           
+           function exibir(info){
+
+            for (const usuario of usuarios){
+                var skills = usuario.skills.join(', ')
+                console.log(usuario.nome, "possui as habilidades: ",skills);
+
+            }
+        }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8"/>
+		<title>Atividade Javascript</title>
+	</head>
+	<body>
+		<script>
+	var skillXp = parseFloat (prompt ("Informe quantos anos de estudo você tem: "))
+	exp(skillXp)
+	
+	function exp(skill){
+	if(skillXp <1){
+		confirm("Iniciante.")
+	}
+	else if (skillXp >1 && skillXp<=3){
+		confirm("Intermediário.")
+	}
+	else if (skillXp >3 && skillXp<=7){
+		confirm("Avançado.")
+	}
+	else if (skillXp>7) {
+		confirm("Jedi Master")
+	}
+}
+</script>
+	</body>
+</html>
